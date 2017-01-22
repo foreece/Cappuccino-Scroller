@@ -11,6 +11,8 @@
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".SimpleScrollActivity">
+        </activity>
+        <activity android:name=".ScrollPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
