@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/start"
+        android:text="START"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.reece.cappuccino.CustomView
+        android:id="@+id/custom_view"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/app_name"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <TextView
+            android:text="@string/app_name"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </com.reece.cappuccino.CustomView>
+</RelativeLayout>
